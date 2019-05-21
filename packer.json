@@ -31,8 +31,8 @@
       {
         "type": "docker-push",
         "login": true,
-        "login_username": "<docker-hub-id>",
-        "login_password": "<docker-hub-password>"
+        "login_username": "46464646",
+        "login_password": "password2019"
       }
     ]
   ]
