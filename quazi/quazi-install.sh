@@ -12,8 +12,8 @@ apt-get install -y wget
 apt-add-repository -y ppa:rael-gc/rvm
 apt update
 apt install -y rvm
-#source /etc/profile.d/rvm.sh
-#rvmsudo rvm fix-permissions
-#rvmsudo rvm install 2.2.2
-#rvmsudo rvm install 2.5.3
-#gem install rails -v 4.1.0do apt-get update
+source /etc/profile.d/rvm.sh
+rvmsudo rvm fix-permissions
+rvmsudo rvm install 2.2.2
+rvmsudo rvm install 2.5.3
+gem install rails -v 4.1.0do apt-get update
