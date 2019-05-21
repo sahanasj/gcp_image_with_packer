@@ -7,6 +7,7 @@ apt-get install -y python-pip python-dev
 apt-get install -y software-properties-common
 apt-get install -y default-jdk
 apt-get install -y wget
+apt-get install -y unzip
 wget https://releases.hashicorp.com/packer/1.4.0/packer_1.4.0_linux_amd64.zip
 unzip packer_1.4.0_linux_amd64.zip
 sudo mv packer /usr/bin/
