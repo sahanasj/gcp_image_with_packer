@@ -3,20 +3,17 @@
         {
             "type": "docker",
             "image": "ubuntu:16.04",
-            "commit": "true",
-            "changes": [
-                "USER packer"
-            ]
+            "commit": "true"
         }
     ],
     "provisioners": [
         {
             "type": "shell",
-            "script": "quazi-install.sh"
+            "script": "quazi/quazi-install.sh"
         },
         {
           "type": "shell",
-          "scripts": "python_requirements.txt",
+          "scripts": "quazi/python_requirements.txt",
           "execute_command": "pip install -r {{ .Path }}"
         }
     ],
