@@ -17,3 +17,4 @@ rvmsudo rvm fix-permissions
 rvmsudo rvm install 2.2.2
 rvmsudo rvm install 2.5.3
 gem install rails -v 4.1.0do apt-get update
+pip install -r quazi/python_requirements.txt
