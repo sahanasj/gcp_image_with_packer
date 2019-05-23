@@ -24,12 +24,6 @@
         "repository": "gcr.io/ulta-image-hardening/ulta-quazi-image",
         "tag": "ultaquazilatest",
         "only": ["docker"]
-      },
-      {
-        "type": "docker-push",
-        "login": true,
-        "login_username": "46464646",
-        "login_password": "password2019"
       }
     ]
   ]
