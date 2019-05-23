@@ -6,6 +6,7 @@ apt-get install -y curl gnupg build-essential
 apt-get install -y python-pip python-dev
 apt-get install -y software-properties-common
 apt-get install -y default-jdk
+pip install --upgrade pip
 
 # Ruby and Rails Packages
 apt-add-repository -y ppa:rael-gc/rvm
