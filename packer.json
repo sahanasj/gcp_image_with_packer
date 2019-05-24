@@ -22,7 +22,6 @@
       { 
         "type": "docker-tag",
         "repository": "gcr.io/ulta-image-hardening/ulta-quazi-image",
-        // "repository": "{{user `docker_image_to_container_registry`}}",
         "tag": "ultaquazilatest",
         "only": ["docker"]
       },
